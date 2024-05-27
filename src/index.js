@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answerContainer.removeChild(answerContainer.firstChild)
         const divContainer = document.createElement('div')
         divContainer.innerHTML=`
-        <h1>Your Answer is: ${answer}
+        <h1>The answer is: ${answer}</h1>
         `
         answerContainer.appendChild(divContainer)
 
